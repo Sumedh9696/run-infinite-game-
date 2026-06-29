@@ -1,45 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Infinite Runner</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+<!DOCTYPE html><html><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
 
-  <div id="game-wrapper">
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+  
 
-    <div id="hud">
-      <span id="score-display">Score: 0</span>
-      <span id="health-display">❤️ ❤️ ❤️</span>
-    </div>
-
-    <canvas id="game-canvas"></canvas>
-
-    <!-- START SCREEN -->
-    <div id="start-screen" class="overlay">
-      <h1 class="game-title">INFINITE<br><span>RUNNER</span></h1>
-      <p class="subtitle">Dodge obstacles. Collect coins. Survive.</p>
-      <div class="controls-hint">
-        <span>← → Arrow keys</span>
-        <span>or Swipe</span>
-      </div>
-      <button id="start-btn" class="btn-primary">START GAME</button>
-    </div>
-
-    <!-- GAME OVER SCREEN -->
-    <div id="game-over-screen" class="overlay hidden">
-      <h2>GAME OVER</h2>
-      <p class="final-score-label">Your Score</p>
-      <p id="final-score" class="final-score-value">0</p>
-      <p id="high-score-display" class="high-score">Best: 0</p>
-      <button id="restart-btn" class="btn-primary">PLAY AGAIN</button>
-    </div>
-
-  </div>
-
-  <script src="game.js"></script>
-
-</body>
-</html>
+</body></html>
